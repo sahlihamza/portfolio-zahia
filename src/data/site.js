@@ -194,22 +194,22 @@ export const projects = [
         span: 'wide',
       },
       {
+        src: '/images/p2-plan-sous-sol.png',
+        alt: 'Plan du sous-sol : archives et expositions permanentes autour de l’atrium',
+        caption: 'Plan sous-sol',
+        span: 'wide',
+      },
+      {
         src: '/images/p2-plan-rdc.png',
         alt: 'Plan du rez-de-chaussée : accueil, performance calligraphique, boutique et café culturel',
         caption: 'Plan RDC',
         span: 'wide',
       },
       {
-        src: '/images/p2-plan-sous-sol.png',
-        alt: 'Plan du sous-sol : archives et expositions permanentes autour de l’atrium',
-        caption: 'Plan sous-sol',
-        span: 'half',
-      },
-      {
         src: '/images/p2-plan-etage.png',
         alt: 'Plan de l’étage : administration, bibliothèque et ateliers',
         caption: 'Plan étage',
-        span: 'half',
+        span: 'wide',
       },
       {
         src: '/images/p2-facade.png',
