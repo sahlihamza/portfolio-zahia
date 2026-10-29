@@ -6,7 +6,7 @@ const DRAWINGS = ['plan', 'coupe', 'elevation', 'perspective', 'facade', 'carte'
 
 function ProjectImage({ image }) {
   const isDrawing = DRAWINGS.some((token) => image.src.includes(token))
-  const ratio = image.span === 'wide' ? 'aspect-[16/9]' : 'aspect-[4/3]'
+  const ratio = image.ratio ?? (image.span === 'wide' ? 'aspect-[16/9]' : 'aspect-[4/3]')
 
   return (
     <figure className={`min-w-0 ${image.span === 'wide' ? 'col-span-1 md:col-span-2' : 'col-span-1'}`}>

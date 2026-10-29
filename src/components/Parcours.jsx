@@ -36,8 +36,8 @@ export default function Parcours() {
                 <li key={tool.name} className="flex items-center gap-3">
                   <img
                     src={tool.logo}
-                    width="113"
-                    height="113"
+                    width="36"
+                    height="36"
                     loading="lazy"
                     decoding="async"
                     alt={`Icône ${tool.name}`}
@@ -49,15 +49,6 @@ export default function Parcours() {
                   </span>
                 </li>
               ))}
-              <li className="flex items-center gap-3">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center border border-line font-mono text-xs text-accent">
-                  3D
-                </span>
-                <span>
-                  <span className="block font-display text-base">Modélisation 3D</span>
-                  <span className="meta">Outils numériques de conception</span>
-                </span>
-              </li>
             </ul>
           </Reveal>
 

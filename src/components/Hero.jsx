@@ -59,7 +59,7 @@ export default function Hero() {
             </figcaption>
           </figure>
 
-          <div className="mt-8 flex items-center gap-4 border-t border-line pt-6">
+          {/* <div className="mt-8 flex items-center gap-4 border-t border-line pt-6">
             <img
               src="/images/badge-oap.png"
               width="167"
@@ -70,7 +70,7 @@ export default function Hero() {
               className="h-12 w-12 shrink-0"
             />
             <p className="meta leading-relaxed">{profile.member}</p>
-          </div>
+          </div> */}
         </Reveal>
       </div>
 
@@ -78,7 +78,7 @@ export default function Hero() {
         <dl className="grid gap-px border-t border-line pt-6 sm:grid-cols-3 sm:gap-8">
           {[
             { term: 'École', detail: profile.school },
-            { term: 'Promotion', detail: profile.promo },
+            // { term: 'Promotion', detail: profile.promo },
             { term: 'Contact', detail: profile.email },
           ].map((item) => (
             <div key={item.term} className="min-w-0">

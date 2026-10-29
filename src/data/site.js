@@ -14,7 +14,7 @@ export const profile = {
   location: 'Sidi Bousaid, Tunis',
   email: 'zahiabouattour@gmail.com',
   phone: '+216 44 142 002',
-  member: 'Membre de l’Ordre des Architectes',
+  // member: 'Membre de l’Ordre des Architectes',
 }
 
 export const about = {
@@ -101,21 +101,51 @@ export const projects = [
         span: 'half',
       },
       {
-        src: '/images/p1-coupe.png',
-        alt: 'Coupe transversale du siège montrant les niveaux, la rampe et les vides traversants',
-        caption: 'Coupe A-A',
-        span: 'wide',
+        src: '/images/p1-plan-masse.png',
+        alt: 'Plan masse du siège de l’Ordre des architectes dans son environnement, échelle 1/500',
+        caption: 'Plan masse — 1/500',
+        span: 'half',
       },
       {
         src: '/images/p1-plan-sous-sol.png',
         alt: 'Plan du sous-sol : parking de 59 places, locaux techniques et cages d’escalier',
-        caption: 'Plan sous-sol',
+        caption: 'Plan sous-sol — 1/200',
         span: 'half',
       },
       {
-        src: '/images/p1-elevation.png',
-        alt: 'Élévation de la tour de l’Ordre des Architectes',
-        caption: 'Élévation',
+        src: '/images/p1-plan-rdc.png',
+        alt: 'Plan du rez-de-chaussée : salle de conférence, accueil, bureaux administratifs et salle du conseil',
+        caption: 'Plan RDC — 1/200',
+        span: 'half',
+      },
+      {
+        src: '/images/p1-plan-etage-1.png',
+        alt: 'Plan du premier étage : salle de conférence, salles de réunion et espace pause café',
+        caption: 'Plan étage 1 — 1/200',
+        span: 'half',
+      },
+      {
+        src: '/images/p1-plan-etage-2.png',
+        alt: 'Plan du deuxième étage : exposition permanente sur l’architecture en Tunisie',
+        caption: 'Plan étage 2 — 1/200',
+        span: 'half',
+      },
+      {
+        src: '/images/p1-plan-etage-3.png',
+        alt: 'Plan du troisième étage : bureaux administratifs',
+        caption: 'Plan étage 3 — 1/200',
+        span: 'half',
+      },
+      {
+        src: '/images/p1-facade-est.png',
+        alt: 'Façade est du siège de l’Ordre des architectes',
+        caption: 'Façade est — 1/200',
+        span: 'half',
+      },
+      {
+        src: '/images/p1-facade-sud.png',
+        alt: 'Façade sud du siège de l’Ordre des architectes',
+        caption: 'Façade sud — 1/200',
         span: 'half',
       },
     ],
@@ -167,13 +197,40 @@ export const projects = [
         src: '/images/p2-plan-rdc.png',
         alt: 'Plan du rez-de-chaussée : accueil, performance calligraphique, boutique et café culturel',
         caption: 'Plan RDC',
+        span: 'wide',
+      },
+      {
+        src: '/images/p2-plan-sous-sol.png',
+        alt: 'Plan du sous-sol : archives et expositions permanentes autour de l’atrium',
+        caption: 'Plan sous-sol',
+        span: 'half',
+      },
+      {
+        src: '/images/p2-plan-etage.png',
+        alt: 'Plan de l’étage : administration, bibliothèque et ateliers',
+        caption: 'Plan étage',
         span: 'half',
       },
       {
         src: '/images/p2-facade.png',
         alt: 'Élévation de la façade nord-ouest du musée de l’écriture',
         caption: 'Façade nord-ouest',
-        span: 'half',
+        span: 'wide',
+        ratio: 'aspect-[5/1]',
+      },
+      {
+        src: '/images/p2-coupe-aa.png',
+        alt: 'Coupe A-A du musée de l’écriture',
+        caption: 'Coupe A-A',
+        span: 'wide',
+        ratio: 'aspect-[5/1]',
+      },
+      {
+        src: '/images/p2-coupe-bb.png',
+        alt: 'Coupe B-B du musée de l’écriture',
+        caption: 'Coupe B-B',
+        span: 'wide',
+        ratio: 'aspect-[5/1]',
       },
     ],
   },
@@ -243,9 +300,10 @@ export const parcours = {
     },
   ],
   software: [
-    { name: 'AutoCAD', note: 'Dessin technique', logo: '/images/soft-autocad.png' },
-    { name: 'Autodesk Revit', note: 'BIM', logo: '/images/soft-revit.png' },
-    { name: 'Adobe Photoshop', note: 'Retouche & mise en page', logo: '/images/soft-photoshop.png' },
+    { name: 'AutoCAD', note: 'Dessin technique', logo: '/images/soft-autocad.svg' },
+    { name: 'Autodesk Revit', note: 'BIM', logo: '/images/soft-revit.svg' },
+    { name: 'Adobe Photoshop', note: 'Retouche & mise en page', logo: '/images/soft-photoshop.svg' },
+    { name: 'SketchUp', note: 'Modélisation 3D', logo: '/images/soft-sketchup.svg' },
   ],
   languages: [
     { name: 'Arabe', level: 'Langue maternelle' },
@@ -256,7 +314,7 @@ export const parcours = {
 
 export const nav = [
   { id: 'demarche', label: 'Démarche' },
-  { id: 'projets', label: 'Projets' },
   { id: 'parcours', label: 'Parcours' },
+  { id: 'projets', label: 'Projets' },
   { id: 'contact', label: 'Contact' },
 ]

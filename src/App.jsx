@@ -21,8 +21,8 @@ export default function App() {
       <main id="contenu">
         <Hero />
         <Demarche />
-        <Projects />
         <Parcours />
+        <Projects />
         <Contact />
       </main>
 
